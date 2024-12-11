@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+header {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+header nav {
+    float: right;
+    margin-right: 150px;
+}
+
+header ul {
+    padding-top: 15px;
+}
+
+header ul li {
+    display: inline-block;
+    margin: auto;
+    margin-right: 20px;
+}
+
+header ul li img {
+    width: 29px;
+    height: 29px;
+}
+
+header img.logo {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 150px;
+}
+
+main .hero {
+    background-color: #F1E4E6;
+    text-transform: uppercase;
+    display: flex;
+}
+
+main .hero .hero-wrapper {
+    padding: 290px 330px 380px 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #222222;
+    display: flex;
+}
+
+main .hero .hero-wrapper .rect {
+    background-color: #f16d7f;
+    width: 12px;
+    margin-right: 10px;
+}
+
+
+main .hero .hero-text p{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+main .hero .hero-text p span{
+    color: #f16d7f;
+}
+

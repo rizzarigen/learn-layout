@@ -3,13 +3,17 @@
     margin: 0;
 }
 
+.header-hthree {
+    font-size: 40px;
+}
+
+
 .main {
     width: 1400px;
-    display: flex;
     margin: 50px auto;
+    font-size: 50px;
 }
 
 .main-hyperlink {
-    font-size: 30px;
-    margin: 0 15px;
+    padding-top: 10px;
 }

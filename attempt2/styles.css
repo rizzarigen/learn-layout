@@ -127,6 +127,7 @@ a {
 
 .hero-info {
     margin-right: 50px;
+    position: relative;
 }
 
 .hero-info-head {
@@ -164,17 +165,20 @@ a {
 }
 
 .hero-info-watchbtn {
-    margin-left: 30px;
+    margin-left: 56px;
     font-size: 16px;
     font-weight: 600;
     border: 0;
     background-color: white;
     text-decoration: underline;
     color: #02897A;
+
 }
 
 .hero-info-watchbtn svg {
-    margin-right: px;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -2px;
 }
 
 

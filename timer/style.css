@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+
+body {
+    background-color: #46368b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 600;
+}
+
+.rect {
+    background-color: #aa86e3a2;
+    padding: 20px 140px;
+    border-radius: 40px;
+    color: #ffffff;
+
+}
+
+
+.timer {
+    font-size: 300px;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+    justify-content: space-around;  
+    padding: 7px 15px;
+    white-space: nowrap;
+}
+
+.timer-input {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+
+}
+
+.timer-input input {
+    background-color: #f7caff86;
+    border: 0;
+    width: 180px;
+    font-size: 50px;
+    padding: 20px 12px;
+    color: #ffffff;
+    border-radius: 20px;    
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 400;
+}
+
+.timer-ctrl {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px auto; 
+
+}
+
+.timer-ctrl button {
+    background-color: #f7caff86;
+    border: 0;
+    color: #ffffff;
+    font-size: 50px;
+    padding: 15px 45px;
+    width: 204px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Gabarito', sans-serif; 
+    font-weight: 400;
+    transition: ease-out 0.3s;
+}
+
+.timer-ctrl button:disabled {
+    filter: brightness(0.7);
+}
+
+.timer-ctrl button:disabled:hover {
+    cursor: default;
+
+}
+
+.timer-ctrl button:hover {
+    transform: scale(1.05);
+    transition: transform ease-out 0.3s;
+}

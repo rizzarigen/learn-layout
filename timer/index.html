@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таймер</title>
+    <script src="./main.js" defer type="module"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <div class="rect">
+            <div class="timer">
+        <span id="timer-output">
+            <span id="timer-output-hours">0</span>
+            <span id="timer-output-colon">:</span>
+            <span id="timer-output-mins">0</span>
+            <span id="timer-output-colon">:</span>
+            <span id="timer-output-sec">0</span>
+        </span>
+        
+        <audio src="./sounds/timeout.mp3" id="#sound"></audio>
+
+    </div>
+
+    <div class="timer-input">
+        <input type="number" id="hours" value="0" min="0">
+        <input type="number" id="mins" value="0" min="0" max="59">
+        <input type="number" id="sec" value="0" min="0" max="59">
+    </div>
+    <div class="timer-ctrl">
+        <button id="start">start</button>
+        <button id="stop">reset</button>
+        <button id="pause">pause</button>
+    </div>
+    
+
+    </div>
+
+    
+
+</body>
+</html>

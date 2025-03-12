@@ -13,10 +13,14 @@
 
 .header {
   background-color: #46368b;
+  border-radius: 0 0 20px 20px;
+}
+.header-wrapper {
+  width: 900px;
+  margin: 0 auto;
   display: flex;
   padding: 10px 220px;
   justify-content: space-around;
-  border-radius: 0 0 20px 20px;
 }
 .header-logo {
   color: hsl(259, 70%, 87%);

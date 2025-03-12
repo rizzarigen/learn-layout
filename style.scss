@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap");
 
 * {
     padding: 0;
@@ -14,10 +14,16 @@
 
 .header {
     background-color: #46368b;
-    display: flex;
-    padding: 10px 220px;
-    justify-content: space-around;
     border-radius: 0 0 20px 20px;
+
+    &-wrapper {
+        width: 900px;
+        margin: 0 auto;
+        display: flex;
+        padding: 10px 220px;
+        justify-content: space-around;
+        
+    }
 
     &-logo {
         color: hsl(259, 70%, 87%);
@@ -26,12 +32,13 @@
         display: flex;
         justify-content: space-between;
         width: 150px;
-        
+
         &-avatar {
             width: 40px;
             height: 40px;
             border-radius: 50%;
         }
+
         &-span {
             margin: 10px auto;
         }
@@ -43,7 +50,7 @@
         width: 300px;
         color: hsl(252, 67%, 82%);
         background-color: #46368b;
-        
+
         &-element {
             margin: 10px auto;
             background-color: #46368b;
@@ -52,11 +59,10 @@
                 background-color: #46368b;
             }
             &-WIP {
-                color: hsl(255, 51%, 80%)
+                color: hsl(255, 51%, 80%);
             }
         }
     }
-
 }
 
 .content {
@@ -78,7 +84,7 @@
         &-head {
             color: hsl(252, 69%, 90%);
             font-weight: 600;
-        
+
             background-color: #c19ce3;
         }
 

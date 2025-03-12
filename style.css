@@ -64,7 +64,7 @@
   margin: 100px auto;
   align-items: center;
 }
-.content-card {
+.content-card-rect {
   background-color: #c19ce3;
   padding: 20px 40px;
   border-radius: 10px;
@@ -73,16 +73,16 @@
   transition: transform ease-out 0.3s;
   text-align: center;
 }
-.content-card-head {
+.content-card-rect:hover {
+  transform: scale(1.05);
+  transition: transform ease-out 0.3s;
+}
+.content-card-rect-head {
   color: hsl(252, 69%, 90%);
   font-weight: 600;
   background-color: #c19ce3;
 }
-.content-card-description {
+.content-card-rect-description {
   font-size: 20px;
   color: hsl(282, 67%, 82%);
-}
-.content-card:hover {
-  transform: scale(1.05);
-  transition: transform ease-out 0.5s;
 }/*# sourceMappingURL=style.css.map */

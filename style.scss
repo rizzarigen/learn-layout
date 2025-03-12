@@ -22,7 +22,6 @@
         display: flex;
         padding: 10px 220px;
         justify-content: space-around;
-        
     }
 
     &-logo {
@@ -73,29 +72,30 @@
     align-items: center;
 
     &-card {
-        background-color: #c19ce3;
-        padding: 20px 40px;
-        border-radius: 10px;
-        font-size: 30px;
-        cursor: pointer;
-        transition: transform ease-out 0.3s;
-        text-align: center;
-
-        &-head {
-            color: hsl(252, 69%, 90%);
-            font-weight: 600;
-
+        &-rect {
             background-color: #c19ce3;
+            padding: 20px 40px;
+            border-radius: 10px;
+            font-size: 30px;
+            cursor: pointer;
+            transition: transform ease-out 0.3s;
+            text-align: center;
+
+            &:hover {
+                transform: scale(1.05);
+                transition: transform ease-out 0.3s;
+            }
+
+            &-head {
+                color: hsl(252, 69%, 90%);
+                font-weight: 600;
+                background-color: #c19ce3;
+            }
+            &-description {
+                font-size: 20px;
+                color: hsl(282, 67%, 82%);
+            }
         }
 
-        &-description {
-            font-size: 20px;
-            color: hsl(282, 67%, 82%);
-        }
-
-        &:hover {
-            transform: scale(1.05);
-            transition: transform ease-out 0.5s;
-        }
     }
 }

@@ -10,6 +10,7 @@
 
 .body {
     background-color: #8569c3;
+
 }
 
 .header {
@@ -17,10 +18,10 @@
     border-radius: 0 0 20px 20px;
 
     &-wrapper {
-        width: 900px;
+        width: 60%;
         margin: 0 auto;
         display: flex;
-        padding: 10px 220px;
+        padding: 1% 10%;
         justify-content: space-around;
     }
 
@@ -30,7 +31,7 @@
         font-size: 17px;
         display: flex;
         justify-content: space-between;
-        width: 150px;
+        width: 17%;
 
         &-avatar {
             width: 40px;
@@ -46,7 +47,8 @@
     &-navigate {
         display: flex;
         justify-content: space-between;
-        width: 300px;
+        width: 50%;
+        font-size: 20px;
         color: hsl(252, 67%, 82%);
         background-color: #46368b;
 
@@ -67,19 +69,21 @@
 .content {
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    width: 55%;
     margin: 100px auto;
     align-items: center;
 
     &-card {
+        display: flex;
         &-rect {
             background-color: #c19ce3;
-            padding: 20px 40px;
+            padding: 10% 50%;
             border-radius: 10px;
-            font-size: 30px;
+            font-size: 22px;
             cursor: pointer;
             transition: transform ease-out 0.3s;
             text-align: center;
+            height: 20%;
 
             &:hover {
                 transform: scale(1.05);
@@ -92,7 +96,7 @@
                 background-color: #c19ce3;
             }
             &-description {
-                font-size: 20px;
+                font-size: 17px;
                 color: hsl(282, 67%, 82%);
             }
         }

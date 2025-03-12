@@ -1,0 +1,120 @@
+@media(max-width: 1200px) {
+    .header {
+        &-logo {
+            width: 20%;
+        }
+    }
+}
+
+@media(max-width: 1024px) {
+    
+    .header {
+        &-logo {
+            
+            &-span {
+                display: none;
+            }
+            &-avatar {
+                width: 30px;
+                height: 30px;
+            }
+        }
+        &-navigate {
+            font-size: 13px;
+        }
+    }
+
+    .content {
+
+        width: 60%;
+        margin: 70px auto;
+        &-card {
+
+            display: flex;
+            justify-content: center;
+            &-rect {
+                
+                margin-top: 10%;
+                padding: 12% 40%;
+                font-size: 20px;
+                &-description {
+                    font-size: 13px;
+                    color: hsl(282, 67%, 82%);
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .header {
+        &-wrapper {
+            width: 70%;
+        }
+        
+        &-logo {
+            &-span {
+                display: none;
+            }
+        }
+        &-navigate {
+            
+            width: 60%;
+            font-size: 15px;
+        }
+    }
+    
+    .content {
+        flex-direction: column;
+        &-card {
+            &-rect {
+                padding: 7% 40%;
+                font-size: 20px;
+                &-description {
+                    font-size: 14px;
+                    color: hsl(282, 67%, 82%);
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 425px){
+    .header {
+        padding: 0.5% 7%;
+        
+        &-wrapper {
+            width: 90%;
+            justify-content: space-evenly;
+        }
+        
+        &-logo {
+            &-span {
+                display: none;
+            }
+        }
+        &-navigate {
+            font-size: 12px;
+        }
+    }
+}
+
+@media(max-width: 320px){
+    .header {
+        &-wrapper {
+            flex-direction: column;
+        }
+        &-logo {
+            &-avatar {
+                display: none;
+            }
+        }
+
+        &-navigate {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+        }
+    }
+}

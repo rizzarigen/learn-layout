@@ -10,7 +10,6 @@
 
 .body {
     background-color: #8569c3;
-
 }
 
 .header {
@@ -21,7 +20,7 @@
         width: 60%;
         margin: 0 auto;
         display: flex;
-        padding: 1% 10%;
+        padding: 0.5% 10%;
         justify-content: space-around;
     }
 
@@ -75,9 +74,11 @@
 
     &-card {
         display: flex;
+        justify-content: center;
+        position: relative;
         &-rect {
             background-color: #c19ce3;
-            padding: 10% 50%;
+            padding: 0.3em 1em;
             border-radius: 10px;
             font-size: 22px;
             cursor: pointer;
@@ -99,7 +100,98 @@
                 font-size: 17px;
                 color: hsl(282, 67%, 82%);
             }
+            &-img {
+                width: 5em;
+                height: 5em;
+                background-color: aliceblue;
+                border-radius: 50%;
+                border: 5px solid #ebb2e4;
+            }
         }
-
     }
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    color: hsl(285, 82%, 87%);
+
+    &-wrapper {
+        width: 50%;
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-rect {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 3rem;
+        width: 20%;
+        padding: 5% 3%;
+        border-radius: 16px;
+
+        background-color: #b892d2;
+        &-avatar {
+            border-radius: 50%;
+            border: 5px solid #793380;
+            margin: 0 auto;
+            width: 70%;
+        }
+        &-nickname {
+            display: flex;
+            justify-content: center;
+
+            margin-top: 1.5rem;
+            font-size: 30px;
+            color: hsl(284, 100%, 94%);
+        }
+    }
+
+    &-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1.5rem;
+
+        &-head {
+            color: hsl(286, 61%, 92%);
+            font-size: 70px;
+            &-second {
+                margin-top: 2rem;
+                color: hsl(286, 61%, 92%);
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+.langs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    
+    &-head {
+        color: hsl(286, 61%, 92%);
+        font-size: 40px;
+    }
+
+    &-wrapper {
+        
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        margin: 2% ;
+        align-items: center;
+    }
+}
+
+.footer {
+    height: 10rem;
+    width: 100%;
 }

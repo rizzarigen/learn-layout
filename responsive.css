@@ -2,6 +2,9 @@
   .header-logo {
     width: 20%;
   }
+  .bio-rect-nickname {
+    font-size: 25px;
+  }
 }
 @media (max-width: 1024px) {
   .header-logo-span {
@@ -31,6 +34,17 @@
     font-size: 13px;
     color: hsl(282, 67%, 82%);
   }
+  .bio-rect {
+    width: 30%;
+  }
+  .bio-rect-avatar {
+    width: 80%;
+  }
+}
+@media (max-width: 874px) {
+  .langs-wrapper {
+    flex-direction: column;
+  }
 }
 @media (max-width: 768px) {
   .header-wrapper {
@@ -54,8 +68,20 @@
     font-size: 14px;
     color: hsl(282, 67%, 82%);
   }
+  .bio-wrapper {
+    width: 60%;
+  }
+  .bio-rect-nickname {
+    font-size: 20px;
+  }
+  .bio-description-head {
+    font-size: 50px;
+  }
+  .bio-description-text {
+    font-size: 16px;
+  }
 }
-@media (max-width: 425px) {
+@media (max-width: 427px) {
   .header {
     padding: 0.5% 7%;
   }
@@ -68,6 +94,19 @@
   }
   .header-navigate {
     font-size: 12px;
+  }
+  .bio-wrapper {
+    width: 70%;
+  }
+  .bio-rect {
+    width: 70%;
+  }
+  .bio-rect-nickname {
+    margin-top: 1rem;
+    font-size: 25px;
+  }
+  .bio-description-head {
+    font-size: 45px;
   }
 }
 @media (max-width: 320px) {

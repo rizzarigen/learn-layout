@@ -73,9 +73,16 @@
     align-items: center;
 
     &-card {
+<<<<<<< Updated upstream
         display: flex;
         justify-content: center;
         position: relative;
+=======
+            display: flex;
+            justify-content: center;
+            position: relative;
+            margin: 1.5% auto;
+>>>>>>> Stashed changes
         &-rect {
             background-color: #c19ce3;
             padding: 0.3em 1em;

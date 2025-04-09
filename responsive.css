@@ -17,20 +17,20 @@
   .header-navigate {
     font-size: 13px;
   }
-  .card-wrapper {
+  .content {
     width: 60%;
-    margin: 30px auto;
+    margin: 70px auto;
   }
-  .card {
+  .content-card {
     display: flex;
     justify-content: center;
   }
-  .card-rect {
+  .content-card-rect {
     margin-top: 10%;
     padding: 12% 40%;
     font-size: 20px;
   }
-  .card-desc {
+  .content-card-rect-description {
     font-size: 13px;
     color: hsl(282, 67%, 82%);
   }
@@ -57,14 +57,14 @@
     width: 60%;
     font-size: 15px;
   }
-  .card-wrapper {
+  .content {
     flex-direction: column;
   }
-  .card-rect {
+  .content-card-rect {
     padding: 7% 40%;
     font-size: 20px;
   }
-  .card-desc {
+  .content-card-rect-description {
     font-size: 14px;
     color: hsl(282, 67%, 82%);
   }

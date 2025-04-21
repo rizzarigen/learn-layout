@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Be Vietnam Pro";
+  list-style: none;
+}
+
+body {
+  background-color: #F7F7F8;
+}
+
+.header-wrapper {
+  padding: 20px 30px;
+}
+.header-ad {
+  background-color: #FF9500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+.header-ad-arrow {
+  margin-left: 23px;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 132px;
+  padding-bottom: 24px;
+  font-size: 18px;
+  line-height: 150%;
+  align-items: center;
+}
+.header-menu-navigate {
+  display: flex;
+}
+.header-menu-navigate-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 493px;
+  margin-left: 50px;
+}
+.header-menu-navigate-list-el {
+  white-space: nowrap;
+  padding: 14px 24px;
+  border-radius: 8px;
+}
+.header-menu-navigate-list-el:hover {
+  background-color: #F1F1F3;
+}
+.header-menu-buttons-el {
+  border: 0;
+  border-radius: 8px;
+  padding: 14px 34px;
+  background-color: #F7F7F8;
+  font-size: 18px;
+  transition: transform ease-out 0.25s;
+}
+.header-menu-buttons-el#login-btn {
+  background-color: #FF9500;
+  color: #FFFFFF;
+}
+.header-menu-buttons-el:hover {
+  transform: scale(1.05);
+  transition: transform ease-out 0.5s;
+}/*# sourceMappingURL=styles.css.map */

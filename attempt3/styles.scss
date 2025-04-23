@@ -74,14 +74,16 @@ body {
                 font-size: 18px;
                 transition: transform ease-out 0.25s;
                 
-                &#login-btn {
-                    background-color: #ff9500;
-                    color: #ffffff;
-                }
+
                 &:hover {
                     transform: scale(1.05);
                     transition: transform ease-out 0.5s;
                 }
+            }
+
+            &> .header-menu-buttons-el:nth-child(2) {
+                background-color: #ff9500;
+                color: #ffffff;
             }
         }
     }
@@ -137,14 +139,15 @@ body {
                     background-color: #ffffff;
                     font-size: 18px;
                     transition: transform ease-out 0.25s;
-                    &#courses-btn {
-                        background-color: #ff9500;
-                        color: #ffffff;
-                    }
+                    
                     &:hover {
                         transform: scale(1.05);
                         transition: transform ease-out 0.5s;
                     }
+                }
+                &> .main-hero-head-buttons-el:nth-child(1) {
+                    background-color: #ff9500;
+                    color: #ffffff;
                 }
             }
 

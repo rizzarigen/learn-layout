@@ -66,13 +66,13 @@ body {
   font-size: 18px;
   transition: transform ease-out 0.25s;
 }
-.header-menu-buttons-el#login-btn {
-  background-color: #ff9500;
-  color: #ffffff;
-}
 .header-menu-buttons-el:hover {
   transform: scale(1.05);
   transition: transform ease-out 0.5s;
+}
+.header-menu-buttons > .header-menu-buttons-el:nth-child(2) {
+  background-color: #ff9500;
+  color: #ffffff;
 }
 
 .main-wrapper {
@@ -126,13 +126,13 @@ body {
   font-size: 18px;
   transition: transform ease-out 0.25s;
 }
-.main-hero-head-buttons-el#courses-btn {
-  background-color: #ff9500;
-  color: #ffffff;
-}
 .main-hero-head-buttons-el:hover {
   transform: scale(1.05);
   transition: transform ease-out 0.5s;
+}
+.main-hero-head-buttons > .main-hero-head-buttons-el:nth-child(1) {
+  background-color: #ff9500;
+  color: #ffffff;
 }
 .main-hero-head-text {
   font-weight: 500;

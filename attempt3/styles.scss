@@ -1,30 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap");
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Be Vietnam Pro';
+    font-family: "Be Vietnam Pro";
     list-style: none;
+    line-height: 150%;
+    text-decoration: none;
 }
 
 body {
-    background-color: #F7F7F8;
+    background-color: #f7f7f8;
 }
 
 .header {
-    
     &-wrapper {
         padding: 20px 30px;
     }
     &-ad {
-        background-color: #FF9500;
+        background-color: #ff9500;
         display: flex;
         justify-content: center;
         align-items: center;
         padding-top: 14px;
         padding-bottom: 14px;
         border-radius: 8px;
-        color: #FFFFFF;
+        color: #ffffff;
 
         &-arrow {
             margin-left: 23px;
@@ -39,22 +40,28 @@ body {
         line-height: 150%;
         align-items: center;
 
+
         &-navigate {
             display: flex;
             
+
             &-list {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 width: 493px;
                 margin-left: 50px;
+                
                 &-el {
                     white-space: nowrap;
                     padding: 14px 24px;
                     border-radius: 8px;
                     &:hover {
-                        background-color: #F1F1F3;
+                        background-color: #f1f1f3;
                     }
+                & a {
+                    color: #262626;
+                }
                 }
             }
         }
@@ -63,23 +70,22 @@ body {
                 border: 0;
                 border-radius: 8px;
                 padding: 14px 34px;
-                background-color: #F7F7F8;;
+                background-color: #f7f7f8;
                 font-size: 18px;
-                transition: transform ease-out .25s;
+                transition: transform ease-out 0.25s;
+                
                 &#login-btn {
-                background-color: #FF9500;
-                color: #FFFFFF;
-
+                    background-color: #ff9500;
+                    color: #ffffff;
                 }
                 &:hover {
                     transform: scale(1.05);
-                    transition: transform ease-out .5s;
-                }
-
+                    transition: transform ease-out 0.5s;
                 }
             }
         }
     }
+}
 
 .main {
     &-wrapper {
@@ -93,15 +99,22 @@ body {
             display: flex;
             flex-direction: column;
             align-items: center;
+            color: #262626;
             &-rect {
                 display: flex;
                 justify-content: space-around;
                 white-space: nowrap;
+                align-items: center;
                 font-weight: 600;
+                background-color: #fcfcfd;
+                padding: 14px 30px 14px 20px;
+                border-radius: 11px;
+                text-transform: capitalize;
+                color: #262626;
                 & p {
                     margin-left: 10px;
                     & span {
-                        color: #FF9500;
+                        color: #ff9500;
                     }
                 }
                 &-inner {
@@ -109,14 +122,42 @@ body {
                     justify-content: center;
                     align-items: center;
                     padding: 14px;
-                    background-color: #FFF4E5;
+                    background-color: #fff4e5;
                     border-radius: 6px;
+                    width: 34px;
+                    height: 34px;
                 }
             }
-        &-text {
-            font-weight: 500;
-            font-size: 28px;
-        }
+            &-buttons {
+                margin-top: 60px;
+                &-el {
+                    border: 0;
+                    border-radius: 8px;
+                    padding: 18px 24px;
+                    background-color: #ffffff;
+                    font-size: 18px;
+                    transition: transform ease-out 0.25s;
+                    &#courses-btn {
+                        background-color: #ff9500;
+                        color: #ffffff;
+                    }
+                    &:hover {
+                        transform: scale(1.05);
+                        transition: transform ease-out 0.5s;
+                    }
+                }
+            }
+
+            &-text {
+                font-weight: 500;
+                font-size: 38px;
+                margin-top: 20px;
+            }
+            &-desc {
+                font-size: 18px;
+                font-weight: 400;
+                margin-top: 10px;
+            }
         }
     }
 }

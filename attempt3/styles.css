@@ -4,24 +4,26 @@
   padding: 0;
   font-family: "Be Vietnam Pro";
   list-style: none;
+  line-height: 150%;
+  text-decoration: none;
 }
 
 body {
-  background-color: #F7F7F8;
+  background-color: #f7f7f8;
 }
 
 .header-wrapper {
   padding: 20px 30px;
 }
 .header-ad {
-  background-color: #FF9500;
+  background-color: #ff9500;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 14px;
   padding-bottom: 14px;
   border-radius: 8px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .header-ad-arrow {
   margin-left: 23px;
@@ -51,19 +53,22 @@ body {
   border-radius: 8px;
 }
 .header-menu-navigate-list-el:hover {
-  background-color: #F1F1F3;
+  background-color: #f1f1f3;
+}
+.header-menu-navigate-list-el a {
+  color: #262626;
 }
 .header-menu-buttons-el {
   border: 0;
   border-radius: 8px;
   padding: 14px 34px;
-  background-color: #F7F7F8;
+  background-color: #f7f7f8;
   font-size: 18px;
   transition: transform ease-out 0.25s;
 }
 .header-menu-buttons-el#login-btn {
-  background-color: #FF9500;
-  color: #FFFFFF;
+  background-color: #ff9500;
+  color: #ffffff;
 }
 .header-menu-buttons-el:hover {
   transform: scale(1.05);
@@ -80,28 +85,62 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #262626;
 }
 .main-hero-head-rect {
   display: flex;
   justify-content: space-around;
   white-space: nowrap;
+  align-items: center;
   font-weight: 600;
+  background-color: #fcfcfd;
+  padding: 14px 30px 14px 20px;
+  border-radius: 11px;
+  text-transform: capitalize;
+  color: #262626;
 }
 .main-hero-head-rect p {
   margin-left: 10px;
 }
 .main-hero-head-rect p span {
-  color: #FF9500;
+  color: #ff9500;
 }
 .main-hero-head-rect-inner {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 14px;
-  background-color: #FFF4E5;
+  background-color: #fff4e5;
   border-radius: 6px;
+  width: 34px;
+  height: 34px;
+}
+.main-hero-head-buttons {
+  margin-top: 60px;
+}
+.main-hero-head-buttons-el {
+  border: 0;
+  border-radius: 8px;
+  padding: 18px 24px;
+  background-color: #ffffff;
+  font-size: 18px;
+  transition: transform ease-out 0.25s;
+}
+.main-hero-head-buttons-el#courses-btn {
+  background-color: #ff9500;
+  color: #ffffff;
+}
+.main-hero-head-buttons-el:hover {
+  transform: scale(1.05);
+  transition: transform ease-out 0.5s;
 }
 .main-hero-head-text {
   font-weight: 500;
-  font-size: 28px;
+  font-size: 38px;
+  margin-top: 20px;
+}
+.main-hero-head-desc {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
 }/*# sourceMappingURL=styles.css.map */

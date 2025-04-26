@@ -69,6 +69,7 @@
   display: flex;
   justify-content: center;
   position: relative;
+  margin: 1.5% auto;
 }
 .content-card-rect {
   background-color: #c19ce3;
@@ -99,6 +100,12 @@
   background-color: aliceblue;
   border-radius: 50%;
   border: 5px solid #ebb2e4;
+}
+.content-card-rect::-moz-placeholder {
+  color: hsl(247, 69%, 90%);
+}
+.content-card-rect::placeholder {
+  color: hsl(247, 69%, 90%);
 }
 
 .bio {

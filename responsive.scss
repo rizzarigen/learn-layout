@@ -120,7 +120,11 @@
             }
         }
     }
-    
+    .card {
+        &-wrapper {
+            flex-direction: column;
+        }
+    }
 }
 
 @media(max-width: 430px){
@@ -159,6 +163,11 @@
             &-head {
                 font-size: 30px;
             }
+        }
+    }
+    .card {
+        &-wrapper:nth-child(1) {
+            margin-top: 50px;
         }
     }
 }

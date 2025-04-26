@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap");
+
 * {
     padding: 0;
     margin: 0;
@@ -17,7 +19,7 @@
 .header {
     background-color: #46368b;
     border-radius: 0 0 20px 20px;
-    
+
     &-wrapper {
         width: 60%;
         margin: 0 auto;
@@ -65,4 +67,66 @@
             }
         }
     }
+}
+
+.main {
+    width: 55%;
+    margin: 10% auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin: 1.5% auto;
+    &-wrapper {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-around;
+        width: 100%;
+    }
+    &-head {
+        color: hsl(252, 69%, 90%);
+        font-weight: 600;
+        background-color: #c19ce3;
+    }
+    &-desc {
+        font-size: 17px;
+        color: hsl(282, 67%, 82%);
+    }
+    &-img {
+        width: 4em;
+        height: 4em;
+        background-color: aliceblue;
+        border-radius: 50%;
+        border: 5px solid #ebb2e4;
+    }
+}
+
+.transition-transform {
+    transition: transform ease-out 0.3s;
+}
+
+.hover {
+    &:hover {
+        transform: scale(1.05);
+        transition: transform ease-out 0.3s;
+    }
+}
+
+.rect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c19ce3;
+    padding: 0.3em 1em;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
 }
